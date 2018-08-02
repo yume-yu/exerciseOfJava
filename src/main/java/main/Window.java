@@ -10,7 +10,7 @@ import java.util.Date;
 
 public class Window extends JFrame {
 
-    Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+    private Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
     private Container contentPane = getContentPane();
     private JPanel clock;
     private JPanel calender;
